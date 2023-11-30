@@ -1,0 +1,42 @@
+.inputArea {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border-bottom: 1px double #ccc;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+  
+}
+
+input {
+  width: 85%;
+  height: 12vh;
+  font-size: 2.25rem;
+  color: white;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  
+}
+
+.textInput {
+  font-family: 'Cinzel', cursive;
+  
+  border: 1px solid #ccc;
+  background-color: #888;
+  align-self: center; 
+}
+
+.textInput::placeholder {
+  color: #777;
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: 4px;
+  
+}
+
+.textInput:focus {
+  outline-color: #aaa;
+  color: white;
+  margin-bottom: 20px;
+}
