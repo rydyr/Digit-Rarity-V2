@@ -8,7 +8,7 @@ class Input extends React.Component {
   render() {
     return(
       <div className="inputArea">
-        <input type="number" placeholder="(000 - 99999999)" value={this.props.value} onChange={(e) => this.props.onChange(e.target.value)} className="textInput"/>
+        <input type="number" placeholder="(000 - 99999999)" value={this.props.value} onChange={(e) => this.props.onChange(e.target.value)} className="textInput" />
       </div>
     );
   }

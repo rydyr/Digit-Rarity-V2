@@ -23,6 +23,8 @@ export default function App() {
     prime: false,
     sequentialAsc: false,
     sequentialDsc: false,
+    leadingzeros: false,
+    trailingzeros: false
   });
 
   const handleChange = (newInput) => {
@@ -42,6 +44,8 @@ export default function App() {
       prime: DRM.IsPrime(num),
       sequentialAsc: DRM.Sequential(input, "asc"),
       sequentialDsc: DRM.Sequential(input, "dsc"),
+      leadingzeros: DRM.LeadingZeros(input),
+      trailingzeros: DRM.TrailingZeros(input)
     });
   };
 
@@ -96,7 +100,21 @@ export default function App() {
         type="sequentialDsc"
         isTrue={result.sequentialDsc}
         length={result.length}
+      />    
+      <Result
+        type="leadingzeros"
+        isTrue={result.leadingzeros}
+        length={result.length}
       />
+      <Result 
+        type="trailingzeros"
+        isTrue={result.trailingzeros}
+        length={result.length}
+      />   
     </main>
   );
 }
+
+
+
+

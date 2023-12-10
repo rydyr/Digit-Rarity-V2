@@ -108,7 +108,38 @@ const population = {
     six: '',
     seven: '',
     eight: ''
+  },
+  leadingzeros: {
+    label: "Leading Zeros",
+    description: "A number with leading zeros.",
+    general: '',
+    three: '',
+    four: '',
+    five: '',
+    six: '',
+    seven: '',
+    eight: ''
+  },
+  trailingzeros: {
+    label: "Trailing Zeros",
+    description: "A number with trailing zeros.",
+    general: '',
+    three: '',
+    four: '',
+    five: '',
+    six: '',
+    seven: '',
+    eight: ''
   }
 }
 
 export default population 
+
+
+
+
+
+
+
+
+
