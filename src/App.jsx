@@ -1,8 +1,10 @@
 import * as DRM from '../index.js';
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Input from "../components/input.jsx";
 import MyButton from "../components/button.jsx";
 import Result from "../components/result.jsx";
+import score from "../dataobjects/score.js";
+import wordifyNum from "../dataobjects/switch.js";
 import "../components/input.css";
 import "../components/button.css";
 import "../components/result.css";
@@ -12,6 +14,7 @@ export default function App() {
   const rotArr = [0, 1, 6, 8, 9];
   const perArr = [0, 6, 8, 9];
   const [input, setInput] = useState("");
+  const [finalScore, setFinalScore] = useState(0);
   const [result, setResult] = useState({
     length: 0,
     palindrome: false,
@@ -30,6 +33,41 @@ export default function App() {
   const handleChange = (newInput) => {
     setInput(newInput);
   };
+  /*
+
+  const calculateScore = (result) => {
+    let gScore = 0;
+    let lScore = 0;
+    let length = wordifyNum(result.length);
+    if (length) {
+       for (const key in result) {
+          if (result[key] && key !== "length") {
+             const localScoreValue = score[length][key];
+            const globalScoreValue = score.general[key];
+            if (typeof localScoreValue === "number") {
+               lScore += localScoreValue;
+            }
+            if (typeof globalScoreValue === "number") {
+               gScore += globalScoreValue;
+            }
+            
+            
+          }
+       }
+    }
+    const agScore = (gScore + lScore) / 2;
+    //console.log(agScore);
+    const base = score[length].base;
+    const choice = agScore ? agScore : base;
+
+    const logScore = Math.log(choice) / Math.log(10);
+    //console.log(logScore);
+    const makePos = Math.abs(logScore);
+    const finalScore = makePos.toFixed(2);
+    setFinalScore(finalScore);
+}
+
+  */
 
   const calculateResults = () => {
     const num = Number(input);
@@ -47,7 +85,9 @@ export default function App() {
       leadingzeros: DRM.LeadingZeros(input),
       trailingzeros: DRM.TrailingZeros(input)
     });
+   // calculateScore(result);
   };
+
 
   return (
     <main>
@@ -58,6 +98,12 @@ export default function App() {
       </div>
       <Input value={input} onChange={handleChange} />
       <MyButton className="myButton" onCalculate={calculateResults} />
+      
+      <Result
+        type="scorecard"
+        isTrue={finalScore}
+        score={finalScore}
+      /> 
       <Result
         type="Length"
         isTrue={result.length}
