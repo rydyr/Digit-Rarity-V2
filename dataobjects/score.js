@@ -46,7 +46,7 @@ const score = {
     eight: 256
   },
   prime: {
-    general: 6517454,
+    general: 6516749,
     three: 168,
     four: 1229,
     five: 9592,
@@ -110,624 +110,529 @@ const score = {
   },
 //doubles 
   palindromeambigram: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 1550,
+    three: 25,
+    four: 25,
+    five: 125,
+    six: 125,
+    seven: 625,
+    eight: 625
   },
   palindromeambigramstrobogrammatic: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 234,
+    three: 9,
+    four: 9,
+    five: 27,
+    six: 27,
+    seven: 81,
+    eight: 81
   },
   palindromeambigramstrobogrammaticperfectprint: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 56,
+    three: 4,
+    four: 4,
+    five: 8,
+    six: 8,
+    seven: 16,
+    eight: 16
   },
   palindromeprime: {
-    general: 0,
-    three: 0,
+    general: 776,
+    three: 15,
     four: 0,
-    five: 0,
+    five: 93,
     six: 0,
-    seven: 0,
+    seven: 668,
     eight: 0
   },
   palindromefourtwenty: {
-    general: 0,
+    general: 84,
     three: 0,
     four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    five: 2,
+    six: 2,
+    seven: 40,
+    eight: 40
   },
   palindromesixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 1196,
+    three: 2,
+    four: 2,
+    five: 38,
+    six: 38,
+    seven: 558,
+    eight: 558
   },
   palindromeleadingzerostrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 2220,
+    three: 10,
+    four: 10,
+    five: 100,
+    six: 100,
+    seven: 1000,
+    eight: 1000
   },
   ambigramprime: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 30171,
+    three: 19,
+    four: 82,
+    five: 327,
+    six: 1308,
+    seven: 5439,
+    eight: 22996
   },
   ambigramsixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 121314,
+    three: 10,
+    four: 74,
+    five: 485,
+    six: 2976,
+    seven: 17520,
+    eight: 100249
   },
   ambigramleadingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 97650,
+    three: 25,
+    four: 125,
+    five: 625,
+    six: 3125,
+    seven: 15625,
+    eight: 78125
   },
   ambigramtrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 97650,
+    three: 25,
+    four: 125,
+    five: 625,
+    six: 3125,
+    seven: 15625,
+    eight: 78125
   },
   ambigramstrobogrammaticprime: {
-    general: 0,
-    three: 0,
+    general: 69,
+    three: 3,
     four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    five: 4,
+    six: 8,
+    seven: 23,
+    eight: 31
   },
   ambigramstrobogrammaticsixtynine: {
-    general: 0,
+    general: 262,
     three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    four: 6,
+    five: 3,
+    six: 34,
+    seven: 30,
+    eight: 189
   },
   ambigramstrobogrammaticleadingzerostrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 248,
+    three: 3,
+    four: 5,
+    five: 15,
+    six: 25,
+    seven: 75,
+    eight: 125
   },
   ambigramstrobogrammaticperfectprintprime: {
-    general: 0,
+    general: 11,
     three: 0,
     four: 0,
     five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    six: 2,
+    seven: 3,
+    eight: 6
   },
   ambigramstrobogrammaticperfectprintsixtynine: {
-    general: 0,
+    general: 149,
     three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    four: 5,
+    five: 2,
+    six: 23,
+    seven: 16,
+    eight: 103
   },
   ambigramstrobogrammaticperfectprintleadingzerostrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 126,
+    three: 2,
+    four: 4,
+    five: 8,
+    six: 16,
+    seven: 32,
+    eight: 64
   },
   primefourtwenty: {
-    general: 0,
+    general: 31688,
     three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    four: 1,
+    five: 21,
+    six: 235,
+    seven: 2674,
+    eight: 28757
   },
   primesixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 528630,
+    three: 4,
+    four: 57,
+    five: 523,
+    six: 4996,
+    seven: 48644,
+    eight: 474406
   },
   primeleadingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 754091,
+    three: 25,
+    four: 168,
+    five: 1229,
+    six: 9592,
+    seven: 78498,
+    eight: 664579
   },
   fourtwentysixtynine: {
-    general: 0,
+    general: 21136,
     three: 0,
     four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    five: 2,
+    six: 60,
+    seven: 1197,
+    eight: 19877
   },
   fourtwentyleadingzeros: {
-    general: 0,
+    general: 54290,
     three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    four: 1,
+    five: 20,
+    six: 300,
+    seven: 3999,
+    eight: 49970
   },
   fourtwentytrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 165080,
+    three: 1,
+    four: 11,
+    five: 120,
+    six: 1299,
+    seven: 13979,
+    eight: 149670
   },
   sixtynineleadingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 643731,
+    three: 1,
+    four: 20,
+    five: 299,
+    six: 3970,
+    seven: 49401,
+    eight: 590040
   },
   sixtyninetrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 643731,
+    three: 1,
+    four: 20,
+    five: 299,
+    six: 3970,
+    seven: 49401,
+    eight: 590040
   },
   leadingzerossequentialAsc: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 6,
+    three: 1,
+    four: 1,
+    five: 1,
+    six: 1,
+    seven: 1,
+    eight: 1
   },
   trailingzerossequentialDsc: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 6,
+    three: 1,
+    four: 1,
+    five: 1,
+    six: 1,
+    seven: 1,
+    eight: 1
   },
   //triples
   palindromeambigramprime: {
-    general: 0,
-    three: 0,
+    general: 55,
+    three: 4,
     four: 0,
-    five: 0,
+    five: 8,
     six: 0,
-    seven: 0,
+    seven: 43,
     eight: 0
   },
   palindromeambigramsixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 296,
+    three: 2,
+    four: 2,
+    five: 18,
+    six: 18,
+    seven: 128,
+    eight: 128
   },
   palindromeambigramleadingzerostrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 360,
+    three: 5,
+    four: 5,
+    five: 25,
+    six: 25,
+    seven: 125,
+    eight: 125
   },
   palindromeambigramstrobogrammaticprime: {
-    general: 0,
-    three: 0,
+    general: 7,
+    three: 2,
     four: 0,
-    five: 0,
+    five: 1,
     six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromeambigramstrobogrammaticsixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
+    seven: 4,
     eight: 0
   },
   palindromeambigramstrobogrammaticleadingzerostrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromeambigramstrobogrammaticperfectprintprime: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromeambigramstrobogrammaticperfectprintsixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 78,
+    three: 3,
+    four: 3,
+    five: 9,
+    six: 9,
+    seven: 27,
+    eight: 27
   },
   palindromeambigramstrobogrammaticperfectprintleadingzerostrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 50,
+    three: 3,
+    four: 3,
+    five: 7,
+    six: 7,
+    seven: 15,
+    eight: 15
   },
   palindromeprimefourtwenty: {
-    general: 0,
+    general: 1,
     three: 0,
     four: 0,
     five: 0,
     six: 0,
-    seven: 0,
+    seven: 1,
     eight: 0
   },
   palindromeprimesixtynine: {
-    general: 0,
+    general: 48,
     three: 0,
     four: 0,
-    five: 0,
+    five: 4,
     six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromefourtwentysixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
+    seven: 44,
     eight: 0
   },
   palindromefourtwentyleadingzerostrailingzeros: {
-    general: 0,
+    general: 26,
     three: 0,
     four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    five: 1,
+    six: 1,
+    seven: 12,
+    eight: 12
   },
 palindromesixtynineleadingzerostrailingzeros: {
-    general: 0,
+    general: 80,
     three: 0,
     four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    five: 2,
+    six: 2,
+    seven: 38,
+    eight: 38
   },
   ambigramprimesixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 8744,
+    three: 1,
+    four: 13,
+    five: 66,
+    six: 311,
+    seven: 1460,
+    eight: 6893
   },
   ambigramprimeleadingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 7179,
+    three: 4,
+    four: 19,
+    five: 82,
+    six: 327,
+    seven: 1308,
+    eight: 5439
   },
   ambigramsixtynineleadingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 21066,
+    three: 1,
+    four: 10,
+    five: 74,
+    six: 485,
+    seven: 2976,
+    eight: 17520
   },
   ambigramsixtyninetrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 21066,
+    three: 1,
+    four: 10,
+    five: 74,
+    six: 485,
+    seven: 2976,
+    eight: 17520
   },
   ambigramleadingzerostrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    general: 19530,
+    three: 5,
+    four: 25,
+    five: 125,
+    six: 625,
+    seven: 3125,
+    eight: 15625
   },
   ambigramstrobogrammaticprimesixtynine: {
-    general: 0,
+    general: 21,
     three: 0,
     four: 0,
     five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    six: 4,
+    seven: 1,
+    eight: 16
   },
   ambigramstrobogrammaticsixtynineleadingzerostrailingzeros: {
-    general: 0,
+    general: 44,
     three: 0,
-    four: 0,
+    four: 1,
     five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    six: 6,
+    seven: 3,
+    eight: 34
   },
   ambigramstrobogrammaticperfectprintprimesixtynine: {
-    general: 0,
+    general: 4,
     three: 0,
     four: 0,
     five: 0,
-    six: 0,
+    six: 1,
     seven: 0,
-    eight: 0
+    eight: 3
   },
   ambigramstrobogrammaticperfectprintsixtynineleadingzerostrailingzeros: {
-    general: 0,
+    general: 31,
     three: 0,
-    four: 0,
+    four: 1,
     five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    six: 5,
+    seven: 2,
+    eight: 23
   },
   primefourtwentysixtynine: {
-    general: 0,
+    general: 1324,
     three: 0,
     four: 0,
     five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    six: 9,
+    seven: 91,
+    eight: 1224
   },
   primefourtwentyleadingzeros: {
-    general: 0,
+    general: 2931,
     three: 0,
     four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    five: 1,
+    six: 21,
+    seven: 235,
+    eight: 2674
   },
   primesixtynineleadingzeros: {
-    general: 0,
+    general: 54224,
     three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    four: 4,
+    five: 57,
+    six: 523,
+    seven: 4996,
+    eight: 48644
   },
   fourtwentysixtynineleadingzeros: {
-    general: 0,
+    general: 1259,
     three: 0,
     four: 0,
     five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    six: 2,
+    seven: 60,
+    eight: 1197
   },
   fourtwentysixtyninetrailingzeros: {
-    general: 0,
+    general: 5547,
     three: 0,
     four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    five: 1,
+    six: 22,
+    seven: 359,
+    eight: 5165
   },
   fourtwentyleadingzerostrailingzeros: {
-    general: 0,
+    general: 15410,
     three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    four: 1,
+    five: 11,
+    six: 120,
+    seven: 1299,
+    eight: 13979
   },
   sixtynineleadingzerostrailingzeros: {
-    general: 0,
+    general: 53691,
     three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    four: 1,
+    five: 20,
+    six: 299,
+    seven: 3970,
+    eight: 49401
   },
   //quads
   palindromeambigramprimesixtynine: {
-    general: 0,
+    general: 9,
     three: 0,
     four: 0,
     five: 0,
     six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromeambigramstrobogrammaticprimesixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromeambigramstrobogrammaticperfectprintprimesixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
+    seven: 9,
     eight: 0
   },
   palindromeambigramsixtynineleadingzerotrailingzero: {
-    general: 0,
+    general: 40,
     three: 0,
     four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromeambigramstrobogrammaticsixtynineleadingzerotrailingzero: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromeambigramstrobogrammaticperfectprintsixtynineleadingzerotrailingzero: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromeprimefourtwentysixtynine: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
-  },
-  palindromefourtwentysixtynineleadingzerostrailingzeros: {
-    general: 0,
-    three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    five: 2,
+    six: 2,
+    seven: 18,
+    eight: 18
   },
   ambigramprimesixtynineleadingzeros: {
-    general: 0,
+    general: 1851,
     three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    four: 1,
+    five: 13,
+    six: 66,
+    seven: 311,
+    eight: 1460
   },
   ambigramsixtynineleadingzerostrailingzeros: {
-    general: 0,
+    general: 3546,
     three: 0,
-    four: 0,
-    five: 0,
-    six: 0,
-    seven: 0,
-    eight: 0
+    four: 1,
+    five: 10,
+    six: 74,
+    seven: 485,
+    eight: 2976
   },
   primefourtwentysixtynineleadingzeros: {
-    general: 0,
+    general: 100,
     three: 0,
     four: 0,
     five: 0,
     six: 0,
-    seven: 0,
-    eight: 0
+    seven: 9,
+    eight: 91
   }
 }
 
 export default score;
-
-
-
-
-

@@ -1,7 +1,7 @@
 const population = {
   scorecard: {
     label: "Score",
-    description: "A summary"
+    description: "The score card features (in order) Rarity Score by length and type, type population, Rarity Score by type, and type list."
   },
   Length: {
     label: "Length",
@@ -83,13 +83,13 @@ const population = {
   prime: {
     label: "Prime",
     description: "A Prime number. Divisible by only 1 and itself.",
-    general: '6,517,454',
-    three: '168 / 6,517,454',
-    four: '1,229 / 6,517,454',
-    five: '9,592 / 6,517,454',
-    six: '78,498 / 6,517,454',
-    seven: '664,579 / 6,517,454',
-    eight: '5,762,653 / 6,517,454'
+    general: '6,515,521',
+    three: '168 / 6,515,521',
+    four: '1,229 / 6,515,521',
+    five: '9,592 / 6,515,521',
+    six: '78,498 / 6,515,521',
+    seven: '664,579 / 6,515,521',
+    eight: '5,761,455 / 6,515,521'
   },
   sequentialAsc: {
     label: "Sequential Ascending", 

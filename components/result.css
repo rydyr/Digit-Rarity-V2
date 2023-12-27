@@ -21,7 +21,9 @@
   border-bottom: 1px dotted #ccc;
 }
 
-.popDes {
+.popDes,
+.typesList,
+.gScore {
   padding: 3% 6%;
   margin: 0;
   color: #ccc;
@@ -36,7 +38,7 @@
   padding-bottom: 5px;
 }
 
-.descSpan {
+.bright {
   font-size: 1.25rem;
   color: #eee;
 }

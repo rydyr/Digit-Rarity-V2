@@ -15,6 +15,9 @@ export default function App() {
   const perArr = [0, 6, 8, 9];
   const [input, setInput] = useState("");
   const [finalScore, setFinalScore] = useState(0);
+  const [typeScore, setTypeScore] = useState(0);
+  const [typeList, setTypeList] = useState("");
+  const [typePop, setTypePop] = useState("");
   const [result, setResult] = useState({
     length: 0,
     palindrome: false,
@@ -33,41 +36,47 @@ export default function App() {
   const handleChange = (newInput) => {
     setInput(newInput);
   };
-  /*
+  
 
   const calculateScore = (result) => {
-    let gScore = 0;
-    let lScore = 0;
+    let objCall = "";
+    let types = "";
+    let pop;
+    let gpop;
     let length = wordifyNum(result.length);
     if (length) {
        for (const key in result) {
           if (result[key] && key !== "length") {
-             const localScoreValue = score[length][key];
-            const globalScoreValue = score.general[key];
-            if (typeof localScoreValue === "number") {
-               lScore += localScoreValue;
-            }
-            if (typeof globalScoreValue === "number") {
-               gScore += globalScoreValue;
-            }
-            
-            
+             objCall = objCall + key;
+            types = types + "#" + key + " ";
           }
        }
+    if (objCall){
+      pop = parseInt(score[objCall][length]);
+      gpop = parseInt(score[objCall]["general"]);
+    } else {
+      pop = parseInt(score["floor"][length]);
+      gpop = pop;
     }
-    const agScore = (gScore + lScore) / 2;
-    //console.log(agScore);
-    const base = score[length].base;
-    const choice = agScore ? agScore : base;
-
-    const logScore = Math.log(choice) / Math.log(10);
-    //console.log(logScore);
-    const makePos = Math.abs(logScore);
-    const finalScore = makePos.toFixed(2);
+    const setTotal = 111111000;
+    const logScore1 = Math.log(setTotal/pop) / Math.log(10);
+    const logScore2 = Math.log(setTotal/gpop) / Math.log(10);
+    const finalScore = logScore1.toFixed(2);
+    const gFinalScore = logScore2.toFixed(2);
+    const strP = gpop.toLocaleString();
+    const strPop = strP + " / 111,111,000"; 
+      if (!types) {
+         types = "Floor";
+      }
+      
     setFinalScore(finalScore);
+    setTypeList(types);
+    setTypeScore(gFinalScore);
+    setTypePop(strPop);
+  }   
 }
 
-  */
+  
 
   const calculateResults = () => {
     const num = Number(input);
@@ -77,17 +86,23 @@ export default function App() {
       ambigram: DRM.RotationChecker(input, rotArr, DRM.AmbHelper),
       strobogrammatic: DRM.RotationChecker(input, rotArr, DRM.StrHelper),
       perfectprint: DRM.RotationChecker(input, perArr, DRM.PerHelper),
+      prime: DRM.IsPrime(num),
       fourtwenty: DRM.Has420(input),
       sixtynine: DRM.Has69(input),
-      prime: DRM.IsPrime(num),
       sequentialAsc: DRM.Sequential(input, "asc"),
       sequentialDsc: DRM.Sequential(input, "dsc"),
       leadingzeros: DRM.LeadingZeros(input),
       trailingzeros: DRM.TrailingZeros(input)
     });
-   // calculateScore(result);
   };
 
+useEffect(() => {
+  calculateScore(result);
+}, [result]);
+
+function calcAll() {
+  calculateResults();
+}
 
   return (
     <main>
@@ -97,12 +112,15 @@ export default function App() {
         <h3 className="version">V.2</h3>
       </div>
       <Input value={input} onChange={handleChange} />
-      <MyButton className="myButton" onCalculate={calculateResults} />
+      <MyButton className="myButton" onCalculate={calcAll} />
       
       <Result
         type="scorecard"
         isTrue={finalScore}
         score={finalScore}
+        gscore={typeScore}
+        types={typeList}
+        tPop={typePop}
       /> 
       <Result
         type="Length"
