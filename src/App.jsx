@@ -34,7 +34,7 @@ export default function App() {
   });
 
   const handleChange = (newInput) => {
-    setInput(newInput);
+       setInput(newInput);
   };
   
 
@@ -112,7 +112,7 @@ function calcAll() {
         <h3 className="version">V.2</h3>
       </div>
       <Input value={input} onChange={handleChange} />
-      <MyButton className="myButton" onCalculate={calcAll} />
+      <MyButton className="myButton" onCalculate={calcAll} isValid={input.length >= 3 && input.length <= 8}/>
       
       <Result
         type="scorecard"

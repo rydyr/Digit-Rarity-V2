@@ -3,9 +3,22 @@
 
 Welcome to Digit Rarity!
 
-From license plates to domain names, number sequences have always been popular for collecting. Every culture and collecting niche may have its own standards or guidelines to what is considered desirable, but one thing remains the same: There are only so many numbers in a given range. 
+From domain names to license plates, number sequences have always been popular for collecting. 
 
-In its first phase Digit Rarity seeks to be a quick and easy way to determine the relative rarity of numbers 3 - 8 digits in length by identifying type(s) and objectively calculating a score.
+Digit Rarity aims to make number comparisons quick and easy. 
 
-Understanding that in number collecting scarcity isn't a reliable metric for desirability, the second phase of Digit Rarity seeks to provide the digit collecting community the opportunity to share subjective valuations. 
+In its first development phase Digit Rarity will focus on honing its root functionality of data delivery. Version 2 marks the beginning of this first phase and includes: 
+
+1. Refactoring of source code.
+2. Implementing scoring system.
+3. testing and refining UI/UX.
+
+The second phase of development begins with the addition of dynamic features that allow for greater user interaction and persistence including:
+
+1. Favoriting / saving
+2. Community weights
+3. ENS integration/authentication
+4. External API/blockchain data 
+
+
 
